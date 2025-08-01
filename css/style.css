@@ -43,8 +43,9 @@ img {
 }
 
 .logo {
-		width: 200px;
+	width: 200px;
 }
+
 
 .main-nav {
 		display: flex;
@@ -81,7 +82,7 @@ img {
 
 .cover-home {
 		background-image:
-			linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), 
+			linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), 
 			url(../images/cover-home-s.png);
 }
 

@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@font-face{
+		font-family: 'Mamelon';
+		src: url('../fonts/Mamelon-5-Hi-Regular.otf') format('opentype');
+}
+
+/* 共通部分
+--------------------------------- */
+html {
+		font-size: 100%;
+}
+body{
+		font-family:"Hiragino Kaku Gothic ProN", "Hiragino Sans";
+		line-height: 1.7;
+		color: #432;
+}
+
+a {
+		text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* レイアウト */
+.align-center {
+	text-align: center;
+}
+
+/* 見出し */
+.font-english,
+.about {
+		font-family: 'Mamelon';
+		font-weight: normal;
+}
+
+/* ヘッダー
+--------------------------------- */
+.page-header {
+		padding-top: .5rem;
+}
+
+.logo {
+		width: 200px;
+}
+
+.main-nav {
+		display: flex;
+		justify-content: center;
+		gap: 2.5rem;
+		font-size: 1.5rem;
+		list-style: none;
+}
+
+.main-nav a:hover {
+		color: #0bd
+}
+
+.page-title,
+.heading-large {
+		font-size: 2rem;
+		text-align: center;
+		margin-top: 2rem;
+		line-height: 1.4;
+}
+
+.heading-large {
+		margin-bottom: 1rem;
+}
+
+
+.cover {
+		background-size: cover;
+		background-position: center bottom;
+		height: 800px;
+
+
+}
+
+.cover-home {
+		background-image:
+			linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), 
+			url(../images/cover-home-s.png);
+}
+
+.about {
+	max-width: 736px;
+	padding: 0 1.5rem;
+	margin: 3rem auto 4rem;
+}
+
+.about p {
+		margin-bottom: 3rem;
+}
